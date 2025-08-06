@@ -1,3 +1,6 @@
-Small project
+** LLM from scratch **
 I created an LLM from scratch following this course:
 https://www.youtube.com/watch?v=UU1WVnMk4E8
+
+A Python project that implements a language model from scratch using Jupyter notebooks. 
+The project explores various algorithms and techniques in natural language processing.
