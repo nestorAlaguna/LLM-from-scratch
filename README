@@ -1,7 +1,8 @@
-🧠 LLM from Scratch: Building a Language Model from the Ground Up
+# 🧠 LLM from Scratch: Building a Language Model from the Ground Up
 
 Implementation of a transformer-based language model inspired by Andrej Karpathy's tutorial. Focused on understanding core NLP concepts through minimalistic code.
-📌 Project Overview
+
+## 📌 Project Overview
 
 Objective:
 Build a toy-sized LLM (Large Language Model) from scratch to learn:
