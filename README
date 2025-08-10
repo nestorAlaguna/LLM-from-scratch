@@ -1,50 +1,19 @@
-# 🧠 LLM from Scratchl
+🧠 LLM from Scratch: Building a Language Model from the Ground Up
 
-![Transformer Architecture](https://via.placeholder.com/800x400?text=Transformer+Architecture+Diagram)  
-*A from-scratch implementation of a Large Language Model (LLM) inspired by [this tutorial](https://www.youtube.com/watch?v=UU1WVnMk4E8). Designed for educational purposes to demystify modern NLP architectures.*
+Implementation of a transformer-based language model inspired by Andrej Karpathy's tutorial. Focused on understanding core NLP concepts through minimalistic code.
+📌 Project Overview
 
----
+Objective:
+Build a toy-sized LLM (Large Language Model) from scratch to learn:
 
-## 🚀 Key Features
-- **Tokenization**: Byte-level BPE (Byte Pair Encoding) for text processing.
-- **Transformer Core**: Self-attention, multi-head attention, and feed-forward layers.
-- **Training Pipeline**: Full workflow from data loading to loss optimization.
-- **Lightweight**: Designed for clarity over scalability (runs on CPU/GPU).
+    Transformer architecture (self-attention, feed-forward layers)
 
----
+    Tokenization and text generation
 
-## 📂 Repository Structure
-llm-from-scratch/
-├── data/ # Sample training corpus (e.g., TinyShakespeare)
-├── tokenizer/ # Custom BPE tokenizer implementation
-├── model/ # Transformer architecture (PyTorch)
-│ ├── attention.py # Multi-head self-attention
-│ ├── blocks.py # Encoder/decoder layers
-│ └── transformer.py # Full model
-├── train.py # Training script
-├── generate.py # Text generation demo
-└── config.json # Hyperparameters (vocab size, layers, etc.)
+    Training loops and loss optimization
 
-## 📊 Technical Details
-
-    Architecture: Decoder-only transformer (GPT-style).
-
-    Hyperparameters:
-
-        6 layers, 8 attention heads, 512 embedding dim.
-
-        Trained on ~1M tokens (TinyStories or OpenWebText subset).
-
-    Performance: ~2.5 PPL (perplexity) on validation set (varies by dataset).
-
-🤝 Contributing
-
-PRs welcome! Focus areas:
-
-    Optimize training speed (e.g., mixed precision).
-
-    Extend tokenizer (Unicode support).
-
-    Add quantization for lightweight inference.
-
-Built for educational purposes as part of self-study in NLP/LLMs.
+Key Features:
+✅ Pure Python/Numpy implementation (no PyTorch/TensorFlow)
+✅ Character-level tokenization
+✅ Multi-head self-attention and positional encoding
+✅ Training on Shakespeare text corpus
