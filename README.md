@@ -14,7 +14,7 @@ Build a toy-sized LLM (Large Language Model) from scratch to learn:
     Training loops and loss optimization
 
 Key Features:
-✅ Pure Python/Numpy implementation (no PyTorch/TensorFlow)
-✅ Character-level tokenization
-✅ Multi-head self-attention and positional encoding
-✅ Training on Shakespeare text corpus
+ Pure Python/Numpy implementation (no PyTorch/TensorFlow)
+ Character-level tokenization
+ Multi-head self-attention and positional encoding
+ Training on Shakespeare text corpus
